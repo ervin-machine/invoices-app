@@ -1,0 +1,39 @@
+.delete-container {
+    width: 300px;
+    height: 110px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.verify-yes-button {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    margin-left: -10px;
+}
+
+.verify-no-button {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.verify-delete-error {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 2;
+}

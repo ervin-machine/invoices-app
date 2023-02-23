@@ -1,0 +1,9 @@
+.sellers-container {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+.sellers-header-text {
+    text-align: center;
+}

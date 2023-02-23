@@ -1,0 +1,26 @@
+.customer-column-item, .customer-row-item {
+    margin: 0px 80px 0px 80px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    white-space: nowrap;
+}
+.customers-column-content {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 1000px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.customers-header-list-1 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 1000px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

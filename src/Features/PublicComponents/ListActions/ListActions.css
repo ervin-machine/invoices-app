@@ -1,0 +1,15 @@
+.list-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.list-action {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

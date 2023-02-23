@@ -1,0 +1,33 @@
+.invoice-column-item, .invoice-row-item {
+    margin: 0px 150px 0px 80px !important;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: space-between;
+    width: 0px !important;
+}
+.invoices-column-content {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 1000px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.invoices-header-list-1 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 1000px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.redirect-link {
+    text-decoration: none;
+    color: black;
+    margin-top: 11px;
+}

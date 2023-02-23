@@ -1,0 +1,6 @@
+.invoice-error-notification-container {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 2;
+}

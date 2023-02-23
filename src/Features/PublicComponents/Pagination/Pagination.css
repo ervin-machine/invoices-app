@@ -1,0 +1,28 @@
+ul[aria-label="Pagination"] {
+    display: flex !important;
+    list-style: none;
+    justify-content: right;
+}
+
+.num-page {
+    width: 30px;
+    height: 30px;
+    background-color: #add8e6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.num-page, .selected {
+    background-color: aqua;
+    cursor: default;
+    border-radius: 5px;
+}
+
+.previous, .next {
+    margin: 10px;
+    cursor: pointer;
+}
