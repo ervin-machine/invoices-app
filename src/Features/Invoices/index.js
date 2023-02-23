@@ -62,6 +62,7 @@ function Invoices(props) {
         setIsAddInvoiceOpened(true)
       }, 1000)
     }
+    // eslint-disable-next-line
   }, [])
 
   return isLoading ? <Loader /> : 

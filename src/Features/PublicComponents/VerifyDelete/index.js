@@ -28,6 +28,7 @@ function VerifyDelete(props) {
     if(whatsDelete !== "invoice") {
       fetchInvoicesAction();
     }
+    // eslint-disable-next-line
   }, [])
 
   useEffect(() => {

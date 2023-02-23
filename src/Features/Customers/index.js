@@ -54,6 +54,7 @@ function Customers(props) {
 
   useEffect(() => {
     fetchCustomersAction();
+    // eslint-disable-next-line
   }, [])
 
   useEffect(() => {
@@ -64,6 +65,7 @@ function Customers(props) {
         setIsAddCustomerOpened(true)
       }, 1000)
     }
+    // eslint-disable-next-line
   }, [])
 
   return isLoading ? <Loader /> :

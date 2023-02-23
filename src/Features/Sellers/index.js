@@ -54,6 +54,7 @@ function Sellers(props) {
 
   useEffect(() => {
     fetchSellersAction();
+    // eslint-disable-next-line
   }, [])
 
   useEffect(() => {
@@ -64,6 +65,7 @@ function Sellers(props) {
         setIsAddSellerOpened(true)
       }, 1000)
     }
+    // eslint-disable-next-line
   }, [])
 
   return isLoading ? <Loader /> :

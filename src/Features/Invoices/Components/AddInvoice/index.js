@@ -74,6 +74,7 @@ function AddInvoice(props) {
     useEffect(() => {
         fetchSellersAction()
         fetchCustomersAction()
+        // eslint-disable-next-line
     }, [])
 
 

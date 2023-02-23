@@ -12,6 +12,7 @@ function Pagination(props) {
         setCurrentItems(items.slice(itemOffset, itemOffset + 5))
         setIsPageChanged(false)
     }
+    // eslint-disable-next-line
     }, [isPageChanged])
     
     const pageCount = Math.ceil(items.length / 5);
